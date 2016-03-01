@@ -13,6 +13,7 @@ module VacationBot
         user = client.users[data.user]
         leave = Leave.new(slack_user_id: user.id, leave_type: 1, date: Date.today)
         if (leave.save)
+          Leave::GoogleCalendarExport.new(leave, GoogleClient.client).export
           client.say(channel: data.channel, text: "Ok, #{user.name} leave today")
         end
       end
