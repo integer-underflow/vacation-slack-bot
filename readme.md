@@ -7,7 +7,7 @@ Slack bot for leave(sick, personal, vacation)
 > @botname: I leave today
 
 ### Installation
-1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/ice5050/vacation-slack-bot.git)
+1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/ice5050/vacation-slack-bot)
 2. Set Environment Variable on heroku instance
   - GOOGLE_CLIENT_ID _your google app id_
   - GOOGLE_CLIENT_SECRET _your google app secret_  
