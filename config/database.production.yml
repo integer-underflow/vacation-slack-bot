@@ -1,0 +1,6 @@
+host: ENV['DATABASE_URL']
+adapter: 'postgresql'
+database: 'vacation'
+username: ''
+encoding: 'utf8'
+pool: 5
