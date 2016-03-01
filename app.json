@@ -1,0 +1,9 @@
+{
+  "name": "Vacation Slack Bot",
+  "description": "Slack bot for leave(sick, personal, vacation) and export it to Google Calendar",
+  "repository": "https://github.com/ice5050/vacation-slack-bot",
+  "logo": "https://slack.com/img/slack_hash_128.v1442100037.png",
+  "image": "heroku/ruby",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "keywords": ["ruby", "slack"]
+}
