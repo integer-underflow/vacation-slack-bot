@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'slack-ruby-bot'
-gem "activerecord"
-gem "pg"
+gem 'activerecord'
+gem 'pg'
+gem 'google-api-client', '0.9'
