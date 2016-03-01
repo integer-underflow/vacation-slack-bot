@@ -5,5 +5,8 @@
   "logo": "https://slack.com/img/slack_hash_128.v1442100037.png",
   "image": "heroku/ruby",
   "addons": ["heroku-postgresql:hobby-dev"],
-  "keywords": ["ruby", "slack"]
+  "keywords": ["ruby", "slack"],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-ruby" }
+  ]
 }
