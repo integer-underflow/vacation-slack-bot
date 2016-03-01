@@ -1,0 +1,7 @@
+host: <%= ENV['DATABASE_URL'].split(/\/|:|@/)[5] %>
+adapter: 'postgresql'
+database: <%= ENV['DATABASE_URL'].split(/\/|:|@/)[7] %>
+username: <%= ENV['DATABASE_URL'].split(/\/|:|@/)[3] %>
+password: <%= ENV['DATABASE_URL'].split(/\/|:|@/)[4] %>
+encoding: 'utf8'
+pool: 5

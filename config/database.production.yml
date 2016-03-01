@@ -1,4 +1,4 @@
-host: <%= ENV['DATABASE_URL'] %>
+host: 'localhost'
 adapter: 'postgresql'
 database: 'vacation'
 username: ''
