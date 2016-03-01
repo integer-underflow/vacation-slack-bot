@@ -14,4 +14,4 @@ Slack bot for leave(sick, personal, vacation)
   - GOOGLE_REFRESH_TOKEN _your refresh token_
   - GOOGLE_CALENDAR_ID _your calendar id, set it to **primary** if you prefer to use your main calendar_
   - SLACK_API_TOKEN _your slack bot api token_
-3. Restart the instance
+3. Activate worker from Heroku app dashboard
