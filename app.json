@@ -6,6 +6,9 @@
   "image": "heroku/ruby",
   "addons": ["heroku-postgresql:hobby-dev"],
   "keywords": ["ruby", "slack"],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:create && bundle exec rake db:migrate"
+  },
   "env": {
     "VACATION_SLACK_BOT_ENV": {
       "description": "Environment for vacation slack bot",
