@@ -6,6 +6,12 @@
   "image": "heroku/ruby",
   "addons": ["heroku-postgresql:hobby-dev"],
   "keywords": ["ruby", "slack"],
+  "env": {
+    "VACATION_SLACK_BOT_ENV": {
+      "description": "Environment for vacation slack bot",
+      "value": "production"
+    }
+  },
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-ruby" }
   ]
